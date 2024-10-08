@@ -89,11 +89,16 @@ This is a boilerplate for setting up an **M5Dial** project with **LVGL 8.4.0** u
    #define LV_COLOR_DEPTH 16
    #define LV_USE_INDEV_TOUCHPAD 1
    #define LV_USE_INDEV_ENCODER 1
-    Save the file and recompile the project.
-    Useful Links:
-    LVGL Documentation
-    M5Stack Documentation 
-<<EOL
+   ```
+
+2. Save the file and recompile the project.
+
+## Useful Links:
+
+- [LVGL Documentation](https://docs.lvgl.io/)
+- [M5Stack Documentation](https://docs.m5stack.com/)
+
+EOL
     
 echo "README.md created."
 
