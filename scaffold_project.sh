@@ -69,19 +69,19 @@ This is a boilerplate for setting up an **M5Dial** project with **LVGL 8.4.0** u
 
 ## Installation Instructions:
 
-1. Install Arduino IDE 2.x.
-2. Install the following libraries using the Arduino Library Manager:
+1. **Install Arduino IDE 2.x.**
+2. **Install the following libraries using the Arduino Library Manager:**
    - **M5STACK 2.1.2**
    - **TFT_eSPI 2.5.43**
    - **M5Dial 1.0.2**
    - **M5Unified 0.1.16**
    - **lvgl 8.4.0**
-3. Copy your exported UI files (e.g., \`ui.h\`, \`ui.c\`) from Squareline or EEZStudio to the \`src\` folder.
-4. Open the \`src/$project_name.ino\` file in Arduino IDE and upload it to your M5Dial.
+3. **Copy your exported UI files (e.g., `ui.h`, `ui.c`) from Squareline or EEZStudio to the `src` folder.**
+4. **Open the `src/$project_name.ino` file in Arduino IDE and upload it to your M5Dial.**
 
-## Customizing \`lv_conf.h\`:
+## Customizing `lv_conf.h`:
 
-1. Modify the \`lv_conf.h\` file in your LVGL library to match the M5Dial's specs:
+1. **Modify the `lv_conf.h` file in your LVGL library to match the M5Dial's specs:**
 
    ```c
    #define LV_HOR_RES_MAX 240
@@ -91,7 +91,7 @@ This is a boilerplate for setting up an **M5Dial** project with **LVGL 8.4.0** u
    #define LV_USE_INDEV_ENCODER 1
    ```
 
-2. Save the file and recompile the project.
+2. **Save the file and recompile the project.**
 
 ## Useful Links:
 
