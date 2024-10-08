@@ -57,12 +57,6 @@ void loop() {
     lv_timer_handler();
     delay(5);
 }
-## Connect with Me:
-
-- [Blog](https://nerudo.substack.com)
-- [Twitter](https://x.com/NerdGr8)
-- [LinkedIn](https://www.linkedin.com/in/nerudomregi/)
-
 EOL
 echo "src/$project_name.ino created."
 
@@ -103,6 +97,12 @@ This is a boilerplate for setting up an **M5Dial** project with **LVGL 8.4.0** u
 
 - [LVGL Documentation](https://docs.lvgl.io/)
 - [M5Stack Documentation](https://docs.m5stack.com/)
+
+## Connect with Me:
+
+- [Blog](https://nerudo.substack.com)
+- [Twitter](https://x.com/NerdGr8)
+- [LinkedIn](https://www.linkedin.com/in/nerudomregi/)
 
 EOL
     
