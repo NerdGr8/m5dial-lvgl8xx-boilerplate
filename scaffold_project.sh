@@ -57,6 +57,12 @@ void loop() {
     lv_timer_handler();
     delay(5);
 }
+## Connect with Me:
+
+- [Blog](https://nerudo.substack.com)
+- [Twitter](https://x.com/NerdGr8)
+- [LinkedIn](https://www.linkedin.com/in/nerudomregi/)
+
 EOL
 echo "src/$project_name.ino created."
 
