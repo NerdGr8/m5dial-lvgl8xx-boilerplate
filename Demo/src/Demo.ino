@@ -6,6 +6,7 @@
 lv_obj_t *label_menu;
 static lv_indev_drv_t indev_drv;
 
+int prevEncoderPos = 0;
 // Display flushing function for M5Dial
 void my_disp_flush(lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color_p) {
     M5Dial.Lcd.startWrite();
